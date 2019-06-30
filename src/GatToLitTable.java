@@ -1,16 +1,16 @@
 public class GatToLitTable {
     public static void main(String[] args) {
-        double gallons, liters;
+        double inches, meters;
         int counter;
 
         counter = 0;
-        for (gallons = 1; gallons <= 100; gallons++) {
-            liters = gallons * 3.7854;
-            System.out.println(gallons + " галлонам соответсвует " +
-                    liters + " liters.");
+        for (inches = 1; inches <= 144; inches++) {
+            meters = inches / 39.37;
+            System.out.println(inches + " дюим соответсвует " +
+                    meters + " метрам.");
 
             counter++;
-            if (counter == 10) {
+            if (counter == 12) {
                 System.out.println();
                 counter = 0;
             }
